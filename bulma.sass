@@ -46,4 +46,19 @@ $tag-color: $gunmetal
 // Hr Modifications
 $hr-background-color: $green-eagle-2
 
+// Hero
+.hero
+	&.has-background
+		position: relative
+		overflow: hidden
+	&-background
+		position: absolute
+		object-fit: cover
+		object-position: center center
+		width: 100%
+		height: 100%
+		&.is-transparent
+			opacity: 0.3
+
+//Import Bulma Archive
 @import "bulma/bulma.sass"
